@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: GSC-FSS-Lab-Chatbot
+  host: gscfss-lab-chatbot
+  disk_quota: 512M
+  services:
+  - GSC-FSS-Lab-Conversation
+  - GSC-FSS-Lab-Tone-Analyzer
